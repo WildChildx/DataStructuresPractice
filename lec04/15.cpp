@@ -6,11 +6,12 @@ int main(){
     cin>>n;
     while(row<=n){   
         int col = 1;
-        while(col<=n){
-            cout<<start<<" ";   //type casting int -> char
-            start+=1;
+        while(col<=row){
+            cout<<char(start)<<" ";   //type casting int -> char
+            start +=1;
             col+=1;
         }
+        start = char('A'+row);
         cout<<endl;
         row+=1;
     }

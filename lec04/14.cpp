@@ -6,9 +6,9 @@ int main(){
     cin>>n;
     while(row<=n){   
         int col = 1;
-        while(col<=n){
+        while(col<=row){
             cout<<start<<" ";   //type casting int -> char
-            start+=1;
+            start +=1;
             col+=1;
         }
         cout<<endl;
