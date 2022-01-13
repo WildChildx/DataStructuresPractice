@@ -1,5 +1,4 @@
 #include <iostream>
-#include <bits/stdc++.h>
 #include <math.h>
 using namespace std;
 
@@ -9,13 +8,9 @@ int main(){
      int ans = 0,i = 0;
      //convert in binary
      while(n != 0){
-         int digit = n%10;  //digit and bit are different
-         if(digit==1){
-             ans += pow(2,i);
-         }else{
-             ans+=0;
-         }
-         n = n / 1; 
+         int bit = n&1;
+         ans = (bit * pow(10,i))+ans;
+         n >>=1;
          i++;
      }
      cout<<ans;
