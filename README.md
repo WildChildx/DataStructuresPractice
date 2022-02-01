@@ -2,9 +2,7 @@
 
 each lecture folder has solved homework and all the code .
 
-## 🔗 RoadMap
-
-[Click here](https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHkArjD)
+## [RoadMap ⚓](https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHkArjD)
 
 ## Folder structure
 
